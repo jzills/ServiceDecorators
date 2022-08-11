@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "xi3L0Mag/uxao8rwus75Fjs3GqtcdvdgCp1RusScO4hTD3oeqXtP/DTTn/quLO6yCljsz1KyVi3YTpr001Db4g==",
+  "success": true,
+  "projectFilePath": "/Users/zills/Desktop/Code/ValidationDecorator/Source/ValidationDecorator.csproj",
+  "expectedPackageFiles": [
+    "/Users/zills/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/zills/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/zills/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/zills/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/zills/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/zills/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
