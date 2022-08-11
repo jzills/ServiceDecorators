@@ -12,9 +12,5 @@ public class HomeController : ControllerBase
     public HomeController(IApplicationService service) => _service = service;
 
     [HttpGet]
-    public IActionResult Get()
-    {
-        _service.SomeMethod(new SomeRequest());
-        return Ok();
-    }
+    public IActionResult Get() => Ok(_service.Get(new ApplicationRequest()));
 }

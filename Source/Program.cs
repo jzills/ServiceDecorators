@@ -3,13 +3,8 @@ using ValidationDecorator.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// builder.Services.AddScoped<ApplicationService>();
-// builder.Services.AddScoped<IApplicationService>(provider =>
-//     new ApplicationServiceValidationDecorator(
-//         provider.GetRequiredService<ApplicationService>()
-//     )
-// );
-builder.Services.AddDecorator<IApplicationService, ApplicationService>(
+builder.Services.AddMemoryCache();
+builder.Services.AddScopedWithDecorator<IApplicationService, ApplicationService>(
     typeof(ApplicationServiceValidationDecorator),
     typeof(ApplicationServiceCacheDecorator)
 );
