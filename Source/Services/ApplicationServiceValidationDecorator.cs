@@ -1,6 +1,3 @@
-using System;
-using System.Collections.Generic;
-
 namespace ServiceDecorators.Services;
 
 public class ApplicationServiceValidationDecorator : IApplicationService
@@ -11,7 +8,10 @@ public class ApplicationServiceValidationDecorator : IApplicationService
 
     public ApplicationResponse Get(ApplicationRequest request)
     {
-        if (request == null) throw new ArgumentNullException($"The {nameof(ApplicationRequest)} cannot be null.");
+        if (request == null) 
+        {
+            throw new ArgumentNullException($"The {nameof(ApplicationRequest)} cannot be null.");
+        }
 
         List<Exception> exceptions = new();
 

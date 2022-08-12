@@ -14,5 +14,9 @@ public class ApplicationService : IApplicationService
     public ApplicationService(ApplicationDbContext context) => _context = context;
 
     public ApplicationResponse Get(ApplicationRequest ApplicationRequest) => 
-        new ApplicationResponse { IsSuccess = true };
+        new ApplicationResponse 
+        { 
+            Result = "The result of a successful execution.", 
+            IsSuccess = true 
+        };
 }
