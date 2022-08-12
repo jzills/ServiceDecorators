@@ -1,5 +1,3 @@
-using System;
-
 namespace ServiceDecorators.Services;
 
 #pragma warning disable CS8618

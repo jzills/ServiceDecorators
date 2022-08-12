@@ -1,9 +1,13 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using ServiceDecorators.Data;
 using ServiceDecorators.Extensions;
 using ServiceDecorators.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseInMemoryDatabase(nameof(ApplicationDbContext))
+);
 
 builder.Services.AddMemoryCache();
 builder.Services.AddScopedWithDecorator<IApplicationService, ApplicationService>(
