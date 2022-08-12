@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Caching.Memory;
 
-namespace ValidationDecorator.Services;
+namespace ServiceDecorators.Services;
 
 public class ApplicationServiceCacheDecorator : IApplicationService
 {
@@ -14,12 +14,12 @@ public class ApplicationServiceCacheDecorator : IApplicationService
 
     public ApplicationResponse Get(ApplicationRequest request)
     {
-        // Check cache
         if (_cache.TryGetValue<ApplicationResponse>(
             nameof(ApplicationResponse), 
             out var response
         ))
         {
+            response.IsFromCache = true;
             return response;
         }
 

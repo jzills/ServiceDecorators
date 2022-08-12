@@ -213,9 +213,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zills/Desktop/Code/ValidationDecorator/Source/ValidationDecorator.csproj",
-      "projectName": "ValidationDecorator",
-      "projectPath": "/Users/zills/Desktop/Code/ValidationDecorator/Source/ValidationDecorator.csproj",
+      "projectUniqueName": "/Users/zills/Desktop/Code/ValidationDecorator/Source/ServiceDecorators.csproj",
+      "projectName": "ServiceDecorators",
+      "projectPath": "/Users/zills/Desktop/Code/ValidationDecorator/Source/ServiceDecorators.csproj",
       "packagesPath": "/Users/zills/.nuget/packages/",
       "outputPath": "/Users/zills/Desktop/Code/ValidationDecorator/Source/obj/",
       "projectStyle": "PackageReference",

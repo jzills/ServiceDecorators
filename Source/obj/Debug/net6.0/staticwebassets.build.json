@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "oSlvvTX80DZJgHW1dUL7NKzEQLLiqZ0oUhAyVcA6yDI=",
-  "Source": "ValidationDecorator",
-  "BasePath": "_content/ValidationDecorator",
+  "Hash": "5e0diYi2ykXbhHLO5748ZfChVgRrjPM36J413P5EkWA=",
+  "Source": "ServiceDecorators",
+  "BasePath": "_content/ServiceDecorators",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using ValidationDecorator.Services;
+using ServiceDecorators.Services;
 
-namespace ValidationDecorator.Controllers;
+namespace ServiceDecorators.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xi3L0Mag/uxao8rwus75Fjs3GqtcdvdgCp1RusScO4hTD3oeqXtP/DTTn/quLO6yCljsz1KyVi3YTpr001Db4g==",
+  "dgSpecHash": "CkbnGwSqhBbiG0e7/R1d8Cg4x8QXeK30cQSFYDEm9mjqkBOrs4BRYDIzfpghUCEUN4XEM5X3CGMh3w1kcjLP8Q==",
   "success": true,
-  "projectFilePath": "/Users/zills/Desktop/Code/ValidationDecorator/Source/ValidationDecorator.csproj",
+  "projectFilePath": "/Users/zills/Desktop/Code/ValidationDecorator/Source/ServiceDecorators.csproj",
   "expectedPackageFiles": [
     "/Users/zills/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/zills/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

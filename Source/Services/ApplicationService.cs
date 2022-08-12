@@ -1,19 +1,12 @@
-namespace ValidationDecorator.Services;
-
-public class ApplicationResponse
-{
-}
-
-public class ApplicationRequest
-{
-}
+namespace ServiceDecorators.Services;
 
 public interface IApplicationService
 {
-    public ApplicationResponse Get(ApplicationRequest ApplicationRequest);
+    ApplicationResponse Get(ApplicationRequest ApplicationRequest);
 }
 
 public class ApplicationService : IApplicationService
 {
-    public ApplicationResponse Get(ApplicationRequest ApplicationRequest) => new ApplicationResponse();
+    public ApplicationResponse Get(ApplicationRequest ApplicationRequest) => 
+        new ApplicationResponse { IsSuccess = true };
 }

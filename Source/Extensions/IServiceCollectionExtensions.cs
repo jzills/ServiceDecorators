@@ -1,4 +1,7 @@
-namespace ValidationDecorator.Extensions;
+using System;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace ServiceDecorators.Extensions;
 
 public static class IServiceCollectionExtensions
 {
