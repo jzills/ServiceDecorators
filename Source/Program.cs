@@ -10,10 +10,17 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 );
 
 builder.Services.AddMemoryCache();
-builder.Services.AddScopedWithDecorator<IApplicationService, ApplicationService>(
+
+builder.Services.AddWithDecorators<IApplicationService, ApplicationService>(
+    ServiceLifetime.Scoped,
     typeof(ApplicationServiceValidationDecorator),
     typeof(ApplicationServiceCacheDecorator)
 );
+
+// builder.Services.AddScopedWithDecorators<IApplicationService, ApplicationService>(
+//     typeof(ApplicationServiceValidationDecorator),
+//     typeof(ApplicationServiceCacheDecorator)
+// );
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
