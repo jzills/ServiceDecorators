@@ -1,4 +1,4 @@
-namespace ServiceDecorators.Extensions;
+namespace Source.Extensions;
 
 public static partial class IServiceCollectionExtensions
 {

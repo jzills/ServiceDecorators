@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Caching.Memory;
 
-namespace ServiceDecorators.Services;
+namespace Source.Services;
 
 public class ApplicationServiceCacheDecorator : IApplicationService
 {

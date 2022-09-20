@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using ServiceDecorators.Services;
+using Source.Services;
 
-namespace ServiceDecorators.Controllers;
+namespace Source.Controllers;
 
 [ApiController]
 [Route("[controller]")]

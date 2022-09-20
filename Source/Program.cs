@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ServiceDecorators.Data;
-using ServiceDecorators.Extensions;
-using ServiceDecorators.Services;
+using Source.Data;
+using Source.Extensions;
+using Source.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,11 +16,6 @@ builder.Services.AddWithDecorators<IApplicationService, ApplicationService>(
     typeof(ApplicationServiceValidationDecorator),
     typeof(ApplicationServiceCacheDecorator)
 );
-
-// builder.Services.AddScopedWithDecorators<IApplicationService, ApplicationService>(
-//     typeof(ApplicationServiceValidationDecorator),
-//     typeof(ApplicationServiceCacheDecorator)
-// );
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

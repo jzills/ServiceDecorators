@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ServiceDecorators.Data;
+namespace Source.Data;
 
 public class ApplicationDbContext : DbContext
 {

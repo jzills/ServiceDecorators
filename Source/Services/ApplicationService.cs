@@ -1,6 +1,6 @@
-using ServiceDecorators.Data;
+using Source.Data;
 
-namespace ServiceDecorators.Services;
+namespace Source.Services;
 
 public interface IApplicationService
 {

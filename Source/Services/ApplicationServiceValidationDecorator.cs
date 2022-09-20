@@ -1,4 +1,4 @@
-namespace ServiceDecorators.Services;
+namespace Source.Services;
 
 public class ApplicationServiceValidationDecorator : IApplicationService
 {
